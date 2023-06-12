@@ -28,7 +28,7 @@ body {
   /* Set a specific height */
   display: grid;
   min-height: 400px;
-  background-image: url('./Assets/Images/hall-of-champions.jpg');
+  background-image: url('./assets/images/hall-of-champions.jpg');
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
