@@ -1,4 +1,4 @@
-.header.top {
+.header.top, .footer {
     background: linear-gradient(300deg, #29164D, #4479B6, #360E80);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
@@ -20,6 +20,7 @@
     height: 400px;
     width: auto;
   }
+
 body {
   font-family: "Georgia", Times, serif;
 }  
@@ -28,13 +29,14 @@ body {
   /* Set a specific height */
   display: grid;
   min-height: 400px;
-  background-image: url('./assets/images/hall-of-champions.jpg');
+  background-image: url('./Assets/Images/hall-of-champions.jpg');
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .hall-of-champions {
   display: flex;
@@ -48,9 +50,18 @@ body {
   display: flex;
 }
 
+.feature-icons {
+  display: flex;
+  justify-content: center;
+}
+
 .league-icon {
   width: 50px;
-  margin-right: 15px
+  margin-right: 15px;
+}
+
+.league-text {
+  text-align: center;
 }
 
 .season-champion {
@@ -66,3 +77,31 @@ body {
   width: 50px;
 }
 
+.champion-picture {
+  border-radius: 250%;
+  height: 350px;
+  width: 350px;
+}
+
+.card-body {
+  background-color: #f8f9fa
+}
+
+.card-header {
+  background-color: gold;
+}
+
+.season-winner-header {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.team-name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.player {
+  text-align: left;
+  margin-left: 55px;
+}
